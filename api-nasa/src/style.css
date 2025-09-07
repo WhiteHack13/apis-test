@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+.myButton {
+  @apply px-3 py-1 bg-brand-accent text-white text-sm font-semibold rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600
+}
+@tailwind utilities;
+
+body{
+  background-color: rgb(243, 243, 243);
+}
